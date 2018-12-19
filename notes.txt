@@ -131,3 +131,14 @@ ssh -v git@heroku.com
 heroku create 
 git push heroku
 heroku open
+ 
+ or 
+ 
+heroku login
+heroku create
+    go to dashboard
+    go to deploy
+        copy heroku git remote
+heroku git:remote -a afternoon-tundra-47501
+git push heroku master 
+heroku open
